@@ -1,0 +1,6 @@
+/.env
+/.token_cache
+/.venv
+/__pycache__
+/discord_reader.log
+/requirements.txt
