@@ -31,7 +31,6 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 def process_channel_selenium(config, selenium_manager):
-    """Seleniumを使用してチャンネルを処理して既読にする"""
     try:
         server_id = config.get('server_id', '@me')  # サーバーIDがない場合は@meを使用
         channel_id = config['channel_id']
